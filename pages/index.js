@@ -1,12 +1,20 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { Row, Col, Table, Input, Form, Select } from 'antd';
 
+import 'antd/dist/antd.css';
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
       </Head>
+
+      <Row>
+        <Col>
+          <img src="" />
+        </Col>
+      </Row>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
